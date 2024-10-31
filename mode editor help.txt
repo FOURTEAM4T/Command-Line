@@ -1,0 +1,56 @@
+That's page for peoples who want to create own mode.
+
+You must create mode at Python 3.12. Else versions of Python will show "ImportError" or "wrong magic number".
+
+You can create 3 types of modes:
+New commands:
+Example:
+import os
+def mode_answers(answer):
+    try:
+        os.chdir("..")
+        os.chdir("mode_editor")
+        os.remove("answer.4t")
+    except:
+        pass
+    f = open("answer.4t","w")
+    f.write(answer)
+    f.close()
+    os.chdir("..")
+    os.chdir("ComLine")
+def system():
+    pass
+def main(com):
+    if com == "/command":
+        print("That's working!")
+        ans = "True"
+        mode_answers(ans)
+    else:
+        ans = "False"
+        mode_answers(ans)
+
+New commands mode are creating new commands,
+System modes:
+Example
+import os
+def mode_answers(answer):
+    try:
+        os.chdir("..")
+        os.chdir("mode_editor")
+        os.remove("answer.4t")
+    except:
+        pass
+    f = open("answer.4t","w")
+    f.write(answer)
+    f.close()
+    os.chdir("..")
+    os.chdir("ComLine")
+def system():
+    os.system("image.jpeg")
+def main(com):
+    ans = "False"
+    mode_answers(ans)
+
+System modes are changing visual in Command Line (You can use it for other goals.)
+All in:
+Include in new commands and visual.

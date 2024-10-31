@@ -1,0 +1,32 @@
+This is a help file for Command Line.
+All commands:
+1."/close" closing program.
+2."/keytap" tapping every keys. Example :
+/keytap
+a
+3."/print" prints everything. Example:
+/print
+example
+example
+4."/file.create" creates files.
+5."/del.file" deletes files.
+6."/create.dir" creates folders.
+7."/del.dir" deletes folders.
+8."/open" opens files.
+9."/help" opens help file.
+10."/caesar" encrypts Caesar cipher.
+11."/info" shows device info.
+12."/location" shows your location info.
+13."/ip" Shows ip info. Example:
+/ip
+Type your ip: 1.1.1.1
+('ip: ', '1.1.1.1')
+('city: ', 'Sydney')
+('region: ', 'New South Wales')
+('country: ', 'Australia')
+(COMING SOON)
+14."/country.info" information about your country.
+15."/upgrade" not useful for now.
+16."/install" installing modifications to Command Line.
+17."/unistall" unistalling modifications from Command Line.
+18."/modes" prints all installes modification.
