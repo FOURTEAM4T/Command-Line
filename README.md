@@ -2,7 +2,7 @@
 Command Line to make simple your life
 
 # How to install
-Install zip file from releases. Extract all files. Open .../Command_Line/ComLine/ComLine.exe. WARNING!!! Command Line now availible only for Windows after 7.
+Install zip file from releases. Extract all files. Open .../Command_Line/ComLine/ComLine.exe. WARNING!!! Command Line now availible only for Windows after 7 and Linux.
 # All commands
 1."/close" closing program.
 2."/keytap" tapping every keys. Example :
